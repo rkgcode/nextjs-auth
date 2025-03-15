@@ -4,8 +4,6 @@ import GoogleProvider from "next-auth/providers/google";
 import { connectDB } from "./db";
 import { User } from "@/app/models/User";
 import bcrypt from "bcrypt";
-import { JWT } from "next-auth/jwt";
-import { Session } from "next-auth";
 
 declare module "next-auth" {
   interface Session {
