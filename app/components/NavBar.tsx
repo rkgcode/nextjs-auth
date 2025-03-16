@@ -16,7 +16,7 @@ const Navbar = () => {
         <Link href="/" className="flex items-center gap-2">
           <Image src="/globe.svg" alt="Logo" width={30} height={30} />
           <span className="text-lg font-semibold text-gray-800 dark:text-white">
-            NextAuth Project
+            NextAuth
           </span>
         </Link>
 
